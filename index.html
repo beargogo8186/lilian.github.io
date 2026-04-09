@@ -110,6 +110,25 @@
 #header:before, #header:after {
   display: none;
 }
+.article-header {
+  display: none;
+}
+.custom-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #333;
+  padding: 10px 0 0;
+  line-height: 1.4;
+  text-align: center;
+}
+.custom-title br {
+  display: none;
+}
+@media (max-width: 600px) {
+  .custom-title br {
+    display: block;
+  }
+}
 .hero-banner {
   width: 100%;
   display: block;
@@ -121,6 +140,8 @@
   margin: 15px auto;
 }
 </style>
+
+<h1 class="custom-title">Career Journey & AI Exploration<br>(1990 - 2026)</h1>
 
 <img src="/lilian.github.io/images/lilian.png" alt="Human-AI Coexistence" class="hero-banner">
 
